@@ -311,7 +311,7 @@ export default function AISEOModel() {
             isActive={activePhase === "foundation"}
             onClick={() => setActivePhase(activePhase === "foundation" ? null : "foundation")}
           >
-            <EntityBriefPanel sections={PHASES[0].entityBrief.sections} />
+            <EntityBriefPanel sections={PHASES[0].entityBrief!.sections} />
           </PhaseCard>
 
           <FlowArrow active={activePhase === "engine"} />
@@ -323,7 +323,7 @@ export default function AISEOModel() {
             onClick={() => setActivePhase(activePhase === "engine" ? null : "engine")}
           >
             <div className="aiseo-assets-grid">
-              {PHASES[1].assets.map((a) => (
+              {PHASES[1].assets!.map((a) => (
                 <div key={a.label} className="aiseo-asset-card">
                   <span className="aiseo-asset-icon">{a.icon}</span>
                   <span className="aiseo-asset-label">{a.label}</span>
@@ -349,7 +349,7 @@ export default function AISEOModel() {
               ))}
             </div>
             <div className="aiseo-teams-list">
-              {PHASES[2].teams.map((t) => (
+              {PHASES[2].teams!.map((t) => (
                 <div
                   key={t.name}
                   className="aiseo-team-row"
