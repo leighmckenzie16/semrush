@@ -51,6 +51,18 @@ export default function Home() {
                 The complete playbook for winning visibility in AI search — 20+ guides, templates, and frameworks.
               </p>
             </Link>
+
+            <Link
+              href="/ai-seo-model"
+              className="block rounded-xl border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] p-6 transition-colors"
+            >
+              <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+                The AI SEO Operating Model
+              </h2>
+              <p className="text-sm text-[var(--text-secondary)] mt-1">
+                A sequential process flowing from strategic definition to asset creation to multi-channel distribution.
+              </p>
+            </Link>
           </div>
         </div>
       </main>
