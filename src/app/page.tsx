@@ -63,6 +63,18 @@ export default function Home() {
                 A sequential process flowing from strategic definition to asset creation to multi-channel distribution.
               </p>
             </Link>
+
+            <Link
+              href="/digital-brand-visibility"
+              className="block rounded-xl border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] p-6 transition-colors"
+            >
+              <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+                Digital Brand Visibility Framework
+              </h2>
+              <p className="text-sm text-[var(--text-secondary)] mt-1">
+                Brand, Product Marketing, and AI SEO as interconnected disciplines for visibility across every AI-powered surface.
+              </p>
+            </Link>
           </div>
         </div>
       </main>
