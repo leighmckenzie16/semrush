@@ -236,7 +236,7 @@ const UmbrellaView = () => {
           ))}
         </div>
         <div style={{ textAlign: "center", marginTop: "0.25rem" }}>
-          <span style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.6rem", color: "#475569", letterSpacing: "0.1em" }}>INTERDEPENDENT · REINFORCING · ALIGNED</span>
+          <span style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.6rem", color: "#94A3B8", letterSpacing: "0.1em" }}>INTERDEPENDENT · REINFORCING · ALIGNED</span>
         </div>
       </div>
 
@@ -583,7 +583,8 @@ export default function DigitalBrandVisibility() {
       </div>
 
       {/* Tab nav */}
-      <div style={{ display: "flex", gap: "0.25rem", padding: "0.75rem 2rem", background: C.bgCard, borderBottom: `1px solid ${C.borderLight}`, position: "sticky", top: 0, zIndex: 50, overflowX: "auto" }}>
+      <div style={{ background: C.bgCard, borderBottom: `1px solid ${C.borderLight}`, position: "sticky", top: 0, zIndex: 50, overflowX: "auto" }}>
+        <div style={{ maxWidth: "72rem", margin: "0 auto", display: "flex", gap: "0.25rem", padding: "0.75rem 2rem" }}>
         {tabs.map((t) => (
           <button
             key={t.id}
@@ -604,6 +605,7 @@ export default function DigitalBrandVisibility() {
             {t.label}
           </button>
         ))}
+        </div>
       </div>
 
       {/* Content */}
